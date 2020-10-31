@@ -1,0 +1,40 @@
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: brown;
+    height: 100vh;
+    width: 100vw;
+}
+
+div {
+    background-color: rgb(197, 197, 197) !important;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(8, 30px);
+    grid-template-rows: repeat(6, 60px);
+    grid-gap: 5px;
+    padding: 20px !important;
+
+}
+
+.key {
+    background-color: rgb(243, 243, 243);
+    border: 2px solid black;
+    border-radius: 5px;
+    grid-column: span 2;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+    font-weight: bold !important;
+
+}
+
+.esittir {
+    grid-column: span 8;
+}
+.result {
+    grid-column: span 8;
+    height: 50px;
+}
